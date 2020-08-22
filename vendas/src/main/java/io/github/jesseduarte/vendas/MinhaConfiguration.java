@@ -16,5 +16,5 @@ public class MinhaConfiguration {
 	}
 }
 
-//Podemos chamar o bean de um objeto da classe Configuration
+//Podemos chamar o bean de um objeto/metodo da classe Configuration. Usou eles, logo esta fzd injecao de dep.
 //O Bean tambem pode ser uma conexao com o banco, um correio de email, etc.
