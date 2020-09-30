@@ -15,6 +15,7 @@ public class VendasApplication {
 	@Autowired
 	@Qualifier("applicationName")//Injetando a String do MInhaConfiguration nessa variavel
 	*/
+	
 	@Value("${application.name}")
 	private String applicationName;
 	

@@ -2,6 +2,11 @@ package io.github.jesseduarte.vendas;
 
 import org.springframework.context.annotation.Configuration;
 
+
+//Para essa classe so rodar em amb de desenv tenho que colocar: @Profile("development")
+//Usando a classe Development.java e a anotação que criamos la, substituiriamos o 
+//@Profile("development") por @Development
+
 @Configuration
 public class MinhaConfiguration {
 	
@@ -20,5 +25,6 @@ public class MinhaConfiguration {
 	*/
 }
 
-//Podemos chamar o bean de um objeto/metodo da classe Configuration. Usou eles, logo esta fzd injecao de dep.
-//O Bean tambem pode ser uma conexao com o banco, um correio de email, etc.
+//Podemos chamar o bean de um objeto/metodo da classe Configuration. Usou eles, logo esta 
+//fzd injecao de dep. O Bean tambem pode ser uma conexao com o banco, um correio de email, 
+//etc.

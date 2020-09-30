@@ -1,17 +1,22 @@
 TESTE GIT
 
-na classe @Configuration e no metodo @Bean = exemplo de injecao de dependencia de configuradao que fica no contexto
+na classe @Configuration e no metodo @Bean = exemplo de injecao de dependencia de 
+											configuradao que fica no contexto
 											  da aplicacao.
 											  
-Na classe @Component com subdiv (@Controller, @Service e @Repository) = exemplo de injecao de dependencia que 
-																		contem metodos e operacoes que sao uteis a 
-																		minha aplicacao.
-No @Repository = usamos nas bases de dados (Model -> camada de dados);
-No @Service = fica nossas regras de negocio e os nossos processamentos;
-OBS: se vc nao tiver nenhuma classe que se entende com uma dessas subdiv, anota ela com @Component.
+Na classe @Component com subdiv (@Controller, @Service e @Repository) = 
+exemplo de injecao de dependencia que contem metodos e operacoes que sao uteis a 
+minha aplicacao.
 
-@ComponentScan em cima da classe VendasApplication = ele vai escanear as classes de configuracao e componentes e 
-														os objetos que tenho que escanear
+No @Repository = usamos nas bases de dados (Model -> camada de dados);
+
+No @Service = fica nossas regras de negocio e os nossos processamentos;
+
+OBS: se vc nao tiver nenhuma classe que se entende com uma dessas subdiv, anota ela com 
+@Component.
+
+@ComponentScan em cima da classe VendasApplication = ele vai escanear as classes de 
+configuracao e componentes e os objetos que tenho que escanear.
 														
 
 
